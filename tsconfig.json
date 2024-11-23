@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",                       // or es6 based on your preference
+    "lib": ["dom", "es2015"],              // include DOM and ES2015 features
+    "jsx": "react",                        // Make sure this is set to "react"
+    "strict": true,                        // Optional, enables strict type-checking options
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

@@ -1,0 +1,77 @@
+/* General table styling */
+table {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 80%; /* Decreased width from 90% to 80% */
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+}
+
+/* Header styling with gradient and uppercase text */
+table thead th {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 14px 16px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Table body styling */
+table tbody tr {
+  transition: background 0.3s ease;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+  background-color: #e3f2fd;
+}
+
+table th, table td {
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Left-align the first column for readability */
+table tbody tr td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+
+/* Add subtle text color transition */
+table td {
+  transition: color 0.3s ease;
+}
+
+table tbody tr:hover td {
+  color: #007bff;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 768px) {
+  table th, table td {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  
+  table {
+    width: 100%;
+  }
+}
+
+/* Centering the heading */
+h1, h2, h3 {
+  text-align: center; /* Center align the heading */
+  font-size: 24px; /* Optional: Adjust the font size of the heading */
+  margin-bottom: 20px; /* Optional: Adjust space below the heading */
+}
